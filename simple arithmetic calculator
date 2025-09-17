@@ -1,0 +1,23 @@
+##simple calculator
+print("SIMPLE CALCULATOR")
+print('select the operation')
+print('1. ADDITION')
+print('2. SUBTRACTION')
+print('3. MULTIPLICATION')
+print('4. DIVISION')
+print('5. MODULAR DIVISION')
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+choice=int(input("SELECT YOUR CHOICE OF OPERATION:"))
+if choice==1:
+    print('answer:',a+b)
+elif choice==2:
+    print('answer:',a-b)
+elif choice==3:
+    print('answer:',a*b)
+elif choice==4:
+    print('answer:',a/b)
+elif choice==5:
+    print('answer:',a%b)
+else:
+    print(" PLEASE CHECK THE OPERATION YOU SELECTED!! ")
