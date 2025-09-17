@@ -1,0 +1,4 @@
+##convert minutes into seconds
+min=int(input('enter no.of minutes:'))
+sec=min*60
+print("no.of seconds in ",min, 'min is', sec)
