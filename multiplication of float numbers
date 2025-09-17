@@ -1,0 +1,5 @@
+## multiplication of floating numbers
+a=float(input("enter a number:"))
+b=float(input('enter a number:'))
+mul=a*b
+print("multiplication value :",mul)
