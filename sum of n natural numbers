@@ -1,0 +1,7 @@
+##sum of n natural numbers
+n=int(input('enter the n value:'))
+a=n+1
+b=n*a
+float(sum)
+sum=b/2
+print('sum of ',n,'natural numbers is',sum)
