@@ -1,0 +1,11 @@
+## sum of cubes from m to n
+m=int(input('enter m value: '))
+n=int(input('enter n value: '))
+sum=0;
+if m>n:
+    print("0")
+else:
+    for i in range(m,n+1):
+        sum+=i**3
+    print("SUM OF CUBES FROM",m,'TO',n,'IS',sum)
+    
