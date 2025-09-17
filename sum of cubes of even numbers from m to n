@@ -1,0 +1,12 @@
+## sum of cubes of even numbers from m to n
+m=int(input('enter m value: '))
+n=int(input('enter n value: '))
+sum=0;
+if m>n:
+    print("0")
+else:
+    for i in range(m,n+1):
+        if i%2==0:
+            sum+=i**3
+    print("SUM OF CUBES OF EVEN NUMBERS FROM",m,'TO',n,'IS',sum)
+    
