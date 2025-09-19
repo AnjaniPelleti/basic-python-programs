@@ -1,4 +1,4 @@
-## check grade
+# check grade
 marks=int(input("enter your marks:"))
 if marks>=90:
     print("A")
