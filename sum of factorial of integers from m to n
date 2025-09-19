@@ -1,0 +1,11 @@
+##sum of factorial of integers from m to n
+import math
+m=int(input('enter m value: '))
+n=int(input('enter n value: '))
+sum=0;
+if m>n:
+    print("0")
+else:
+    for i in range(m,n+1):
+        sum+=math.factorial(i)
+    print("SUM OF FACTORIAL OF INTEGERS FROM",m,'TO',n,'IS',sum)
